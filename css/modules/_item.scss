@@ -1,0 +1,43 @@
+.image {
+
+    .item-image {
+        position: relative;
+
+        img {
+            border-radius: 10px;
+        }
+
+    }
+
+    .desc {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: white;
+        padding: 10%;
+        background: rgba(73, 73, 73, 0.295);
+        height: 84%;
+        border-radius: 10px;
+
+        p {
+            margin-bottom: 5%;
+        }
+    }
+}
+
+.menu-item {
+    h3 {
+        position: relative;
+        display: inline-block;
+
+        &::before {
+            position: absolute;
+            content: "";
+            width: 40%;
+            height: 100%;
+            left: 0;
+            border-bottom: 5px solid rgba(0, 128, 0, 0.507);
+            border-radius: 1px;
+        }
+    }
+}

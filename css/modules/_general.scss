@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 33px;
+}
+
+h3 {
+    font-size: 26px;
+
+}
+
+h4 {
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    line-height: 140%;
+}
+
+p {
+    font-size: 16px;
+    line-height: 180%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #0c9c76;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid #0c9c76;
+    transition: all .30s ease;
+
+
+    &:hover {
+        background: none;
+        border: 3px solid #0c9c76;
+        color: #0c9c76;
+        transition: all .30s ease;
+
+    }
+}
+
+.btn-i {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #0c9c76;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid #0c9c76;
+    transition: all .30s ease;
+
+    &:hover {
+        background: none;
+        border: 3px solid #0c9c76;
+        color: white;
+        transition: all .30s ease;
+    }
+}
+
+.padding {
+    padding: 50px 0;
+}
+
+.mg-top {
+    margin-top: 5%;
+}
+
+.color {
+    color: #0c9c76;
+}
+
+.bg {
+    background: url(/img/wave1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.space-betwen {
+    justify-content: space-between;
+}
+
+.ai {
+    align-items: center;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.jc {
+    justify-content: center;
+}

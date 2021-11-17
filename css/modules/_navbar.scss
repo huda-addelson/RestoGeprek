@@ -1,0 +1,57 @@
+.row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+    i {
+        font-size: 30px;
+        color: #0c9c76;
+    }
+}
+
+.menu {
+    a {
+        margin-right: 20px;
+        color: rgba(0, 0, 0, 0.87);
+
+        &:hover {
+            color: #0c9c76;
+            transition: all .30s ease;
+        }
+    }
+}
+
+.user {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+
+
+
+    .info,
+    .keranjang,
+    .user-login {
+        padding: 2px 7px;
+        background: #e9f1f7b0;
+        border-radius: 5px;
+
+        &:hover {
+            background: #0c9c76;
+            transition: all .40s ease;
+        }
+
+        .fas {
+            color: black;
+        }
+
+
+    }
+
+    .keranjang {
+        margin: 0 7px;
+    }
+}

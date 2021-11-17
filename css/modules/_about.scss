@@ -1,0 +1,34 @@
+.about {
+    background: #cccccc4f;
+
+    &-desc {
+        h4 {
+            color: #0c9c76;
+        }
+    }
+
+    &-fitur {
+        display: flex;
+
+        .fitur {
+            margin: 0 15px 15px 0;
+            background: white;
+            padding: 15px 15px;
+            border-radius: 5px;
+            width: 250px;
+
+            .icon {
+                display: flex;
+                align-items: center;
+                margin-right: 10px;
+                color: black;
+                font-size: 30px;
+
+                img {
+                    width: 40px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
